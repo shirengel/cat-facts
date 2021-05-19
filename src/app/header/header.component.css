@@ -1,0 +1,11 @@
+.nav-tabs{
+  background-color: blueviolet;
+}
+
+a:hover {
+  color: black;
+}
+
+a{
+  color:white;
+}

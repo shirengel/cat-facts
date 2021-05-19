@@ -1,0 +1,33 @@
+ngb-carousel{
+  background-color: #673ab7;
+  margin: 40px;
+  padding-top: 2rem;
+  height: auto;
+}
+
+ngb-carousel .carousel-caption {
+  position: relative;
+  display: grid;
+  margin: 15px;
+  width: 75%;
+}
+
+p{
+  color: white;
+  text-align: left;
+  padding-right: 2rem;
+}
+
+@media (max-width: 576px) {
+  ngb-carousel.carousel.slide{
+    margin: 3px;
+  }
+}
+
+@media (min-width: 577px) {
+  ngb-carousel .deleteButton{
+    margin-left: 15%;
+  }
+}
+
+

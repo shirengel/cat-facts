@@ -1,0 +1,14 @@
+<ngb-carousel *ngIf="(facts !== undefined && facts.length > 0)" >
+  <ng-template ngbSlide *ngFor="let fact of facts">
+    <div class="carousel-caption">
+      <p class="text">{{fact.content}}</p>
+    </div>
+    <button
+    class="deleteButton"
+    *ngIf="routerName == '/MyFacts'"
+    (click)="onClickDelete(fact)"
+    mat-raised-button
+    color="warn">
+    Delete this fact!</button>
+  </ng-template>
+</ngb-carousel>

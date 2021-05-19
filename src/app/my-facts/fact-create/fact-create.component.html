@@ -1,0 +1,14 @@
+<form [formGroup]="form" (ngSubmit)="onAddFact()">
+  <mat-card>
+    <mat-form-field>
+      <textarea matInput rows="6" formControlName="content" placeholder="Enter Your Fact Here!" ></textarea>
+    </mat-form-field>
+    <button
+      type = "submit"
+      mat-raised-button
+      color="primary"
+      [disabled]="form.invalid">
+      Add Fact!</button>
+  </mat-card>
+</form>
+
