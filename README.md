@@ -1,11 +1,13 @@
-# cat facts application
+# Cat facts application:
 
 This project was generated with angular version 11.2.12 and Node.js version 14.17.0
-This repository includes all application source code (except of "node_modules" angular folder).
+
 In order to run the project do the follow:
-1)clone this project.
-2)run "npm i" in the command
-3)run "ng serve" in the command
-4)go to "/localhost:4200"
+1)Clone this project to a new folder.
+2)Open a command line and cd to that folder path.
+2)Run "npm i" (it may take a while).
+3)Run "ng serve".
+4)In a *new* command tab run "node server.js".
+5)In your browser, go to http://localhost:4200/
 
 Enjoy educate yourself about cats!
