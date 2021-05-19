@@ -1,0 +1,6 @@
+{
+  "/facts/*" : {
+    "target" : "https://cat-fact.herokuapp.com/",
+    "pathRewrite" : "^/facts"
+  }
+}
