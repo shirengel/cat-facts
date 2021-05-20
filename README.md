@@ -2,7 +2,7 @@
 
 This project was generated with angular version 11.2.12 and Node.js version 14.17.0
 
-In order to run the project do the follow (assuming you aleardy have angular and node.js installed):<br/>
+In order to run the project do the follow:<br/>
 1) Clone this project to a new folder.<br/>
 2) Open a command line and cd to that folder path.<br/>
 2) Run "npm i" (it may take a while).<br/>
